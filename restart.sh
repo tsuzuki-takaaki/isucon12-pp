@@ -12,3 +12,4 @@ sudo truncate -s 0 /var/log/mysql/mysql-slow.log
 #restart unit
 sudo systemctl restart nginx
 sudo systemctl restart mysql
+sudo systemctl restart isuports.service
