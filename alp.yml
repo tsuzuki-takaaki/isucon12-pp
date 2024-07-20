@@ -1,0 +1,9 @@
+matching_groups:
+  - /api/player/player/[^/]+
+  - /api/player/competition/[^/]+/ranking
+  - /api/organizer/competition/[^/]+/score
+  - /api/organizer/competition/[^/]+/finish
+  - /api/organizer/player/[^/]+/disqualified
+sort: p99
+reverse: true
+
